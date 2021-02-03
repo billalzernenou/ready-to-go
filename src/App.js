@@ -1,9 +1,14 @@
 import "./App.css";
+import Header from "./Header";
+import Section from "./Section";
+import Footer from "./Footer";
 
 function App() {
   return (
-    <div>
-      Hello from <a href="https://www.lereacteur.io">Le Reacteur !</a>
+    <div className="App">
+      <Header />
+      <Section />
+      <Footer />
     </div>
   );
 }
