@@ -1,4 +1,4 @@
-const Switch3 = ({ swtch, setState }) => {
+const Switch1 = ({ swtch, setState }) => {
   const handleClickOn = () => {
     setState(true);
   };
@@ -6,7 +6,7 @@ const Switch3 = ({ swtch, setState }) => {
     setState(false);
   };
   return (
-    <div className="switch switch3">
+    <div className="switch">
       <div>
         <button
           style={{
@@ -33,4 +33,4 @@ const Switch3 = ({ swtch, setState }) => {
   );
 };
 
-export default Switch3;
+export default Switch1;

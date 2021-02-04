@@ -1,6 +1,4 @@
-import Switch1 from "./Switches/Switch1";
-import Switch2 from "./Switches/Switch2";
-import Switch3 from "./Switches/Switch3";
+import Switc from "./Switches/Switc";
 import Ready from "./Switches/Ready";
 
 import { useState } from "react";
@@ -12,9 +10,9 @@ const Section = () => {
   return (
     <div className="section">
       <div className="switches">
-        <Switch1 swtch={switch1} setState={setSwitch1} />
-        <Switch2 swtch={switch2} setState={setSwitch2} />
-        <Switch3 swtch={switch3} setState={setSwitch3} />
+        <Switc swtch={switch1} setState={setSwitch1} />
+        <Switc swtch={switch2} setState={setSwitch2} />
+        <Switc swtch={switch3} setState={setSwitch3} />
       </div>
 
       <Ready swtch1={switch1} swtch2={switch2} swtch3={switch3} />
